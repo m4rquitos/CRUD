@@ -47,7 +47,7 @@
        <select class="form-select mb-3" aria-label="Default select example" name="Marcas">
         <option selected disabled>--seleccione marcas--</option>
         <?php
-        include ("../config/Conexion.php");
+        include ("../Config/Conexion.php");
         $sql3 = "SELECT * FROM marcas WHERE Id=".$row['MarcaId'];
         $resultado3 = $conexion->query($sql3);
 
@@ -71,11 +71,11 @@
         </div>
         <div class="mb-3">
             <label class="form-label">descripcion</label>
-            <input type="text" class="form-control" name="descripcion" value="<?php echo $row['DescripcionProducto']; ?>">
+            <input type="text" class="form-control" name="Descripcion" value="<?php echo $row['DescripcionProducto']; ?>">
         </div>
         <div class="mb-3">
             <label class="form-label">nombre</label>
-            <input type="text" class="form-control" name="nombre" value="<?php echo $row['Nombre']; ?>">
+            <input type="text" class="form-control" name="Nombre" value="<?php echo $row['Nombre']; ?>">
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-danger">Editar</button>

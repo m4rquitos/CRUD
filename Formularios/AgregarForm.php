@@ -19,7 +19,7 @@ crossorigin="anonymous">
             <select class="form-select mb-3" name="CategoriaP">
                 <option select disabled>--Seleccionar categoria--</option>
                 <?php
-                include ("../config/Conexion.php");
+                include ("../Config/Conexion.php");
 
                 
                 $sql = $conexion->query("SELECT * FROM categorias");
@@ -32,7 +32,7 @@ crossorigin="anonymous">
           <select class="form-select mb-3" name="MarcaP">
             <option selected disabled>--Seleccionar marca--</option>
             <?php
-                include ("../config/Conexion.php");
+                include ("../Config/Conexion.php");
 
                 $sql = $conexion->query("SELECT * FROM marcas");
                 while ($resultado = $sql->fetch_assoc()){

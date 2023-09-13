@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "crud";
+$db = "CRUD";
 
 $conexion = new mysqli($host,$user,$pass,$db);
 

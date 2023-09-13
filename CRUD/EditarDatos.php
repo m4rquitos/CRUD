@@ -1,6 +1,6 @@
 <?php 
 
-    include_once("../config/Conexion.php");
+    include_once("../Config/Conexion.php");
 
     $id = $_POST['Id'];
     $Categoria = $_POST['Categorias'];
@@ -9,8 +9,8 @@
     $Descripcion = $_POST['Descripcion'];
     $Nombre = $_POST['Nombre'];
 
-    $sql "UPDATE producto SET
-    CategoriaId='".$categoria."',
+    $sql = "UPDATE productos SET
+    CategoriaId='".$Categoria."',
     MarcaId='".$Marcas."',
     Precio='".$Precio."',
     DescripcionProducto='".$Descripcion."',
