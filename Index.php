@@ -16,7 +16,7 @@ crossorigin="anonymous">
 <body>
     <br>
     <div class="container">
-    <h1 class="text-center" style="background-color:white; border-radius: 5px;">LISTADO DE PRODUCTOS</h1>
+    <h1 class="text-center" style="background-color:white; border-radius: 5px;">LISTADO DE APRENDICES</h1>
     </div>
     <br>
     <div class="container">
